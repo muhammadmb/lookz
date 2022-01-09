@@ -11,12 +11,12 @@ function Header() {
 
             <div>
                 <ul className='navbar'>
-                    <li> <NavLink activeClassName="active-link" className="link" to="/home">Home</NavLink></li>
-                    <li> <NavLink activeClassName="active-link" className="link" to="/shop">Shop</NavLink></li>
-                    <li> <NavLink activeClassName="active-link" className="link" to="/blog">Blog</NavLink></li>
-                    <li> <NavLink activeClassName="active-link" className="link" to="/about">About</NavLink></li>
-                    <li> <NavLink activeClassName="active-link" className="link" to="/contact">Contact</NavLink></li>
-                    <li> <NavLink activeClassName="active-link" className="link" to="/cart"><img src={Cart} alt="cart" /></NavLink></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active-link link" : "link"} to="/home">Home</NavLink></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active-link link" : "link"} to="/shop">Shop</NavLink></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active-link link" : "link"} to="/blog">Blog</NavLink></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active-link link" : "link"} to="/about">About</NavLink></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active-link link" : "link"} to="/contact">Contact</NavLink></li>
+                    <li> <NavLink to="/cart"><img src={Cart} alt="cart" /></NavLink></li>
                 </ul>
             </div>
         </div>
