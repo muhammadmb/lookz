@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 function Header() {
     return (
         <div className='header'>
-            <NavLink to='/'><img src={Logo} className='logo' alt="lookz" /></NavLink>
+            <NavLink to='/'><img src={Logo} className='logo' alt="lookz" title='LookZ' /></NavLink>
 
             <div>
                 <ul className='navbar'>
