@@ -3,6 +3,7 @@ import './HomeStyle.css';
 import background from '../../../images/HomeBackground.jpg';
 import buttonBackground from '../../../images/button.png';
 import Features from '../../Features/Features';
+import Products from '../../Products/Products';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             </div>
 
             <Features />
+            <Products />
         </>
     )
 }
