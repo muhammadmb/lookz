@@ -4,8 +4,12 @@ import background from '../../../images/HomeBackground.jpg';
 import buttonBackground from '../../../images/button.png';
 import Features from '../../Features/Features';
 import Products from '../../Products/Products';
+import Banner from '../../Banner/Banner';
+import SmBanner from '../../Sm-banner/SmBanner';
+import { productImgs, arrivalImgs } from '../../../Data/Data'
 
 const Home = () => {
+
     return (
         <>
             <div className='home' style={{ backgroundImage: `url(${background})` }}>
@@ -17,7 +21,11 @@ const Home = () => {
             </div>
 
             <Features />
-            <Products />
+            <Products description='summer collection new modern design' banner='Featured Products' imgs={productImgs} />
+            <Banner />
+            <Products description='summer collection new modern design' banner='New Arrivals' imgs={arrivalImgs} />
+
+            <SmBanner />
         </>
     )
 }
