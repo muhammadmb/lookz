@@ -7,6 +7,7 @@ import Products from '../../Products/Products';
 import Banner from '../../Banner/Banner';
 import SmBanner from '../../Sm-banner/SmBanner';
 import { productImgs, arrivalImgs } from '../../../Data/Data'
+import NewsLetter from '../../NewsLetterBanner/NewsLetter';
 
 const Home = () => {
 
@@ -26,6 +27,8 @@ const Home = () => {
             <Products description='summer collection new modern design' banner='New Arrivals' imgs={arrivalImgs} />
 
             <SmBanner />
+
+            <NewsLetter />
         </>
     )
 }
