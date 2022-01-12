@@ -8,6 +8,7 @@ import Banner from '../../Banner/Banner';
 import SmBanner from '../../Sm-banner/SmBanner';
 import { productImgs, arrivalImgs } from '../../../Data/Data'
 import NewsLetter from '../../NewsLetterBanner/NewsLetter';
+import Footer from '../../Footer/Footer';
 
 const Home = () => {
 
@@ -29,6 +30,8 @@ const Home = () => {
             <SmBanner />
 
             <NewsLetter />
+
+            <Footer />
         </>
     )
 }

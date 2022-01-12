@@ -1,6 +1,5 @@
 import React from 'react';
 import './NewsLetterStyle.css';
-// import { background } from '../../images/'
 
 const NewsLetter = () => {
     return (
