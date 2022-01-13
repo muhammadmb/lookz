@@ -37,3 +37,27 @@
 .home button:hover {
     transform: translateY(-10%);
 }
+
+@media(max-width:799px) {
+    .home {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right;
+    }
+}
+
+@media(max-width:477px) {
+    
+    .home {
+        padding: 0 20px;
+        background-position: 20%;
+    }
+
+    .home h2 {
+        font-size: 32px;
+    }
+    
+    .home h1 {
+        font-size: 38;
+    }
+}

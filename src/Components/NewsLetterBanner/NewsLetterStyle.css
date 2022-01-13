@@ -46,3 +46,14 @@
     color: #FFF;
     white-space: nowrap;
 }
+
+@media(max-width:799px) {
+
+    .newsletter {
+        padding: 30px 20px;
+    }
+
+    .newsletter .form {
+        width: 800%;
+    }
+}

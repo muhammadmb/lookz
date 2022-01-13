@@ -69,3 +69,23 @@
 .products .pro .cart:hover {
     transform: scale(115%);
 }
+
+@media(max-width:799px) {
+
+    .products .pro-container {
+        justify-self: center;
+    }
+
+    .products .pro {
+        min-width: 46%;
+        padding: 10px 12px;
+        margin: 15px 5px;
+    }
+}
+
+@media(max-width:477px) {
+    
+    .products .pro {
+        min-width: 100%;
+    }
+}

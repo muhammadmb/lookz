@@ -73,3 +73,13 @@ button.white {
 body {
     width: 100%;
 }
+
+@media(max-width:799px) {
+    .section-p1 {
+        padding: 10px;
+    }
+    
+    .section-m1 {
+        margin: 10px 0;
+    }
+}
