@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const SmBanner = () => {
 
     const Banners = smBannerBackground.map(banner => (
-        <div className="banner-box" style={{ backgroundImage: `url(${banner.background})` }}>
+        <div className="banner-box" style={{ backgroundImage: `url(${banner.background})` }} key={banner.id}>
             <h4>{banner.lable}</h4>
             <h2>{banner.title}</h2>
             <span>{banner.description}</span>

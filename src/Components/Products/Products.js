@@ -5,14 +5,17 @@ import { Link } from 'react-router-dom';
 
 const Products = (props) => {
 
-    const Images = props.imgs.map(img => (
-        <div className='pro'>
-            <img src={img} alt='' title='' />
-            <div className='des'>
-                <span>adidas</span>
-                <h5>cartoon astronaut T-Shirts</h5>
-                <h4>$78</h4>
-            </div>
+    const Product = props.data.map(pro => (
+        <div className='pro' key={pro.id}>
+            <Link to={`product/${pro.id}`}>
+                <img src={pro.img} alt='' title='' />
+                <div className='des'>
+                    <span>{pro.brand}</span>
+                    <h5>{pro.describtion}</h5>
+                    <h4>{pro.price}</h4>
+                </div>
+            </Link>
+
             <Link to="/">
                 <img className='cart' src={cart} alt='' />
             </Link>
@@ -22,10 +25,20 @@ const Products = (props) => {
     return (
         <>
             <section className='products section-p1'>
-                <h2>{props.banner}</h2>
-                <p>{props.description}</p>
+                {
+                    props.banner ?
+                        <h2>{props.banner}</h2>
+                        :
+                        null
+                }
+                {
+                    props.description ?
+                        <p>{props.description}</p>
+                        :
+                        null
+                }
                 <div className='pro-container'>
-                    {Images}
+                    {Product}
                 </div>
             </section>
         </>

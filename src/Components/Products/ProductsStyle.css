@@ -26,6 +26,10 @@
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
+.products .pro a{
+    text-decoration: none;
+}
+
 .products .pro img {
     width: 100%;
     border-radius: 20px;

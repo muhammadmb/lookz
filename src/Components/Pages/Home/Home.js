@@ -6,9 +6,8 @@ import Features from '../../Features/Features';
 import Products from '../../Products/Products';
 import Banner from '../../Banner/Banner';
 import SmBanner from '../../Sm-banner/SmBanner';
-import { productImgs, arrivalImgs } from '../../../Data/Data'
+import { productData, arrivalData } from '../../../Data/Data'
 import NewsLetter from '../../NewsLetterBanner/NewsLetter';
-import Footer from '../../Footer/Footer';
 
 const Home = () => {
 
@@ -23,15 +22,11 @@ const Home = () => {
             </div>
 
             <Features />
-            <Products description='summer collection new modern design' banner='Featured Products' imgs={productImgs} />
+            <Products description='summer collection new modern design' banner='Featured Products' data={productData} />
             <Banner />
-            <Products description='summer collection new modern design' banner='New Arrivals' imgs={arrivalImgs} />
-
+            <Products description='summer collection new modern design' banner='New Arrivals' data={arrivalData} />
             <SmBanner />
-
             <NewsLetter />
-
-            <Footer />
         </>
     )
 }
