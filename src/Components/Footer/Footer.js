@@ -36,11 +36,10 @@ const Footer = () => {
                 <Link to="/">Privacy Policy</Link>
                 <Link to="/">Terms & Conditions</Link>
                 <Link to="/">Contact Us</Link>
-
             </div>
 
             <div className="col">
-                <h4>About</h4>
+                <h4>My Account</h4>
                 <Link to="/">Sign In</Link>
                 <Link to="/">View Cart</Link>
                 <Link to="/">My wishlest</Link>

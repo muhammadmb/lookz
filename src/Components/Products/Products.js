@@ -7,7 +7,7 @@ const Products = (props) => {
 
     const Product = props.data.map(pro => (
         <div className='pro' key={pro.id}>
-            <Link to={`product/${pro.id}`}>
+            <Link to={`/shop/product/${pro.id}`}>
                 <img src={pro.img} alt='' title='' />
                 <div className='des'>
                     <span>{pro.brand}</span>
