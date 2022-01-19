@@ -19,6 +19,13 @@ import b2 from '../images/sm-banner/b2.jpg';
 import b3 from '../images/sm-banner/b3.jpg';
 import b4 from '../images/sm-banner/b4.jpg';
 import b5 from '../images/sm-banner/b5.jpg';
+import blog1 from '../images/blog/blog1.jpg';
+import blog2 from '../images/blog/blog2.jpg';
+import blog3 from '../images/blog/blog3.jpg';
+import blog4 from '../images/blog/blog4.jpg';
+import blog5 from '../images/blog/blog5.jpg';
+
+// Dumy data
 
 export const productData = [
     {
@@ -179,4 +186,48 @@ export const smBannerBackground = [
         "description": "Lorem ipsum dolor sit amet.",
         "path": "/"
     }
+]
+
+export const Blogs = [
+    {
+        id: 1,
+        "img": blog1,
+        "url": "#",
+        "title": "Lorem ipsum dolor sit amet",
+        "describtion": "Ut hendrerit tincidunt augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam placerat quis eros eu tempus.",
+        "date": "12/1/21"
+    },
+    {
+        id: 2,
+        "img": blog2,
+        "url": "#",
+        "title": "Lorem ipsum dolor sit amet",
+        "describtion": "Ut hendrerit tincidunt augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam placerat quis eros eu tempus.",
+        "date": "12/12/21"
+    },
+    {
+        id: 3,
+        "img": blog3,
+        "url": "#",
+        "title": "Lorem ipsum dolor sit amet",
+        "describtion": "Ut hendrerit tincidunt augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam placerat quis eros eu tempus.",
+        "date": "1/1/22"
+    },
+    {
+        id: 4,
+        "img": blog4,
+        "url": "#",
+        "title": "Lorem ipsum dolor sit amet",
+        "describtion": "Ut hendrerit tincidunt augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam placerat quis eros eu tempus.",
+        "date": "18/5/21"
+    },
+    {
+        id: 5,
+        "img": blog5,
+        "url": "#",
+        "title": "Lorem ipsum dolor sit amet",
+        "describtion": "Ut hendrerit tincidunt augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam placerat quis eros eu tempus.",
+        "date": "25/7/21"
+    },
+
 ]
