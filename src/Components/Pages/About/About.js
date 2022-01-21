@@ -8,7 +8,7 @@ import Features from '../../Features/Features';
 const About = () => {
     return (
         <div>
-            <div className='about-header' style={{ backgroundImage: `url(${background})` }}>
+            <div className='page-header' style={{ backgroundImage: `url(${background})` }}>
                 <h2>#KnowUs</h2>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>

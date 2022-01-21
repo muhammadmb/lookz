@@ -6,7 +6,7 @@ import { Blogs } from '../../../Data/Data';
 const Blog = () => {
     return (
         <section>
-            <div className='blog-header' style={{ backgroundImage: `url(${background})` }}>
+            <div className='page-header' style={{ backgroundImage: `url(${background})` }}>
                 <h2>#readMore</h2>
                 <p>read all case studies about our products!</p>
             </div>

@@ -24,6 +24,10 @@ import blog2 from '../images/blog/blog2.jpg';
 import blog3 from '../images/blog/blog3.jpg';
 import blog4 from '../images/blog/blog4.jpg';
 import blog5 from '../images/blog/blog5.jpg';
+import p1 from '../images/people/p1.jpg';
+import p2 from '../images/people/p2.jpg';
+import p3 from '../images/people/p3.jpg';
+
 
 // Dumy data
 
@@ -228,6 +232,32 @@ export const Blogs = [
         "title": "Lorem ipsum dolor sit amet",
         "describtion": "Ut hendrerit tincidunt augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam placerat quis eros eu tempus.",
         "date": "25/7/21"
-    },
+    }
+]
 
+export const People = [
+    {
+        id: 1,
+        "img": p1,
+        "name": "John Doe",
+        "title": "Senior Marketing Manager",
+        "phone": "+000 125 125 22 00",
+        "Mail": "John@Lookz.com"
+    },
+    {
+        id: 2,
+        "img": p2,
+        "name": "William Smith",
+        "title": "Senior Marketing Manager",
+        "phone": "+000 125 125 22 00",
+        "Mail": "William@Lookz.com"
+    },
+    {
+        id: 3,
+        "img": p3,
+        "name": "Emma Doe",
+        "title": "Senior Marketing Manager",
+        "phone": "+000 125 125 22 00",
+        "Mail": "Emma@Lookz.com"
+    },
 ]
