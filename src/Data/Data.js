@@ -261,3 +261,47 @@ export const People = [
         "Mail": "Emma@Lookz.com"
     },
 ]
+
+export const order =
+    [
+        {
+            id: 1,
+            img: pic1,
+            brand: "Adidas",
+            describtion: "cartoon astronaut T-Shirts",
+            price: "$78",
+            quantity: 1
+        },
+        {
+            id: 7,
+            img: pic3,
+            brand: "Adidas",
+            describtion: "cartoon astronaut T-Shirts",
+            price: "$72",
+            quantity: 1
+        },
+        {
+            id: 12,
+            img: pic7,
+            brand: "H&M",
+            describtion: "cartoon astronaut T-Shirts",
+            price: "$75",
+            quantity: 1
+        },
+        {
+            id: 6,
+            img: pic11,
+            brand: "Nike",
+            describtion: "cartoon astronaut T-Shirts",
+            price: "$44",
+            quantity: 1
+        },
+        {
+            id: 8,
+            img: pic16,
+            brand: "Adidas",
+            describtion: "cartoon astronaut T-Shirts",
+            price: "$108",
+            quantity: 1
+        },
+    ]

@@ -9,6 +9,7 @@ import NewsLetter from './Components/NewsLetterBanner/NewsLetter';
 import Blog from './Components/Pages/Blog/Blog';
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
+import Cart from './Components/Pages/Cart/Cart';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="blog" element={<Blog />} />
           <Route exact path="about" element={<About />} />
           <Route exact path="contact" element={<Contact />} />
+          <Route exact path="cart" element={<Cart />} />
         </Routes>
         <NewsLetter />
         <Footer />
